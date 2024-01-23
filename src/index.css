@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Lato:wght@400;700&display=swap');
 
+/* Your existing CSS remains unchanged above this point */
+
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    /* Adjust font size for better readability on smaller screens */
+  }
+
+  #main-header {
+    width: 90%;
+    /* Adjust width for better responsiveness */
+  }
+
+  #hero-img {
+    height: 40vh;
+    /* Adjust height for better visibility on smaller screens */
+  }
+
+  #welcome-header-content {
+    width: 90%;
+    /* Adjust width for better responsiveness */
+    left: calc(50% - 45%);
+    /* Adjust position for centering on smaller screens */
+  }
+
+  /* Add more styles for other elements as needed */
+}
+
+/* Your existing CSS remains unchanged below this point */
 * {
   box-sizing: border-box;
 }
@@ -93,6 +123,7 @@ body {
 #cta-link:hover {
   background-color: #0f86ef;
 }
+
 
 #welcome-content section {
   margin: 6rem 0;
@@ -280,7 +311,7 @@ main {
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.25rem;
-  
+
 }
 
 
@@ -312,20 +343,23 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  
+
 }
+
 @keyframes slide-up-fade-in {
   0% {
     transform: translateY(30px);
     opacity: 0;
 
   }
-  100%{
+
+  100% {
     transform: translateY(0);
-      opacity: 1;
+    opacity: 1;
 
   }
 }
+
 .modal h2 {
   margin-top: 0;
 }
