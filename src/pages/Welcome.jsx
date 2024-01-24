@@ -25,7 +25,13 @@ export default function WelcomePage() {
           id="welcome-header-content"
           style={{ scale: scaleText, y: yText }}
         >
-          <h1>Challenge?</h1>
+          <motion.h1
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 6 }}
+          >
+            Challenge?
+          </motion.h1>
           <Link id="cta-link" to="/challenges">
             Get Started
           </Link>
