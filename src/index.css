@@ -379,21 +379,26 @@ main {
 }
 
 
-
-@media only screen and (max-width: 414px) {
-  #welcome-header-content {
+@media (max-width: 600px) {
+  #main-header {
     width: 90%;
   }
 
-  #city-image,
-  #hero-image {
-    width: 100%;
+  #hero-img {
+    width: 90%;
   }
+
+  
 }
 
-@media only screen and (max-width: 375px) {
-  #welcome-header-content {
+@media (max-width: 400px) {
+  #main-header {
     width: 95%;
   }
-}
 
+  #hero-img {
+    width: 95%;
+  }
+
+  
+}

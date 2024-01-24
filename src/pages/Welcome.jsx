@@ -25,7 +25,7 @@ export default function WelcomePage() {
           id="welcome-header-content"
           style={{ scale: scaleText, y: yText }}
         >
-          <h1>Ready for a challenge?</h1>
+          <h1>Challenge?</h1>
           <Link id="cta-link" to="/challenges">
             Get Started
           </Link>
