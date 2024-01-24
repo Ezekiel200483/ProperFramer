@@ -18,9 +18,11 @@
   }
 
   #welcome-header-content {
-    width: 100%;
+    width: 90%;
     
-    left: 0;
+    left: calc(50% - 45%);
+    box-sizing: border-box;
+    overflow: hidden;
    
   }
 
