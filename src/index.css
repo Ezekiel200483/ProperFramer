@@ -1,40 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 
-@media only screen and (max-width: 76px) {
-  body {
-    font-size: 14px;
-    
-  }
-
-  #main-header {
-    width: 90%;
-    
-  }
-
-  #hero-img {
-    height: 40vh;
-    
-  }
-
-  #welcome-header-content {
-    width: 90%;
-    
-    left: calc(50% - 45%);
-    box-sizing: border-box;
-    overflow: hidden;
-   
-  }
-    #welcome-header-content h1{
-      font-size: 1.8em;
-        
-        line-height: 1.2;
-        
-        margin: 10px 0;
-    }
-
-  
-}
 
 
 * {
@@ -410,4 +376,29 @@ main {
   background-color: #0f61ef;
   color: #fff;
   font-size: 0.5rem;
+}
+
+
+@media (max-width: 600px) {
+  #main-header {
+    width: 90%;
+  }
+
+  #hero-img {
+    width: 90%;
+  }
+
+  
+}
+
+@media (max-width: 400px) {
+  #main-header {
+    width: 95%;
+  }
+
+  #hero-img {
+    width: 95%;
+  }
+
+  
 }
